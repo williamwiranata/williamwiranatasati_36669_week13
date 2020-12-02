@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap"');
+
 * {
   box-sizing : border-box;
   margin: 0;
@@ -5,10 +7,12 @@
 }
 
 body {
+  font-family: 'Quicksand', sans-serif;
   font-size: 100%;
 }
 
 .timer-container {
+  background-image: url(./background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +36,6 @@ body {
 .timer div:first-child {
   text-align: center;
 }
-
 
 .timer-icon {
   font-size: 8em;
